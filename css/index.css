@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Comum */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 0.5px;
+}
+
+header {
+    margin: 0%;
+    text-align: center;
+    border: 1.5px solid #d8d8d8;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    background: white;
+}
+
+header h1 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 5px 10px;
+    margin: 0 1px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.selecionado {
+    color: rgb(206, 40, 40);
+    font-weight:bold;
+}
+
+footer {
+    background-color: #d8d8d8e3;
+    width: 100%;
+    margin: 0;
+}
+
+footer p {
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Homepage */
+.home-image img {
+    width: 100%;
+}
+
+.home-texto-principal {
+    background: white;
+    margin: 40px 200px ;
+    text-align: justify;
+}
+
+.home-texto-secundario {
+    margin-left: 200px;
+    margin-right: 0px;
+    background: white;
+    overflow: hidden;
+}
+
+.illustra-imagem {
+    width: 100%;
+}
+
+.illustra-imagem img {
+    width: 40%;
+    float: left;
+}
+
+.illustra-texto {
+    margin-top: 40px;
+    float: left;
+    line-height: 45px;
+}
+
+.illustra-texto em {
+    color:orange;
+    font-weight:bold;
+    font-style: normal;
+}
+
+
